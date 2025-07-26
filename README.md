@@ -1,59 +1,28 @@
-# KipedeneMaterial
+<p align="center">
+    <img src="logo.svg" alt="@kipedene/material logo" width="120">
+</p>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
+# @kipedene/material
 
-## Development server
+[![npm version](https://img.shields.io/npm/v/@kipedene/material.svg)](https://www.npmjs.com/package/@kipedene/material)
+[![npm version](https://img.shields.io/npm/dm/@kipedene/material.svg)](https://www.npmjs.com/package/@kipedene/material)
+[![License](https://img.shields.io/npm/l/@kipedene/material.svg)](LICENSE)
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
+> Library of reusable Angular components based on Material Design principles. Developed for quick, consistent, and customizable use in your Angular projects.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+# Functionalities
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Modular UI components (‘Button’, ‘Input’, ‘Card’, etc.)
+- Compatible with Angular 20+
+- Designed for accessibility (a11y)
+- Easy to theme with SCSS
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+## Installation
 
 ```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+npm install @kipedene/material
