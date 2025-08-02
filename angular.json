@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/material",
       "sourceRoot": "projects/material/src",
-      "prefix": "km",
+      "prefix": "kmat",
       "architect": {
         "build": {
           "builder": "@angular/build:ng-packagr",
@@ -26,6 +26,11 @@
           "options": {
             "tsConfig": "projects/material/tsconfig.spec.json"
           }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
         }
       }
     }

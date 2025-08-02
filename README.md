@@ -5,7 +5,7 @@
 # @kipedene/material
 
 [![npm version](https://img.shields.io/npm/v/@kipedene/material.svg)](https://www.npmjs.com/package/@kipedene/material)
-[![npm version](https://img.shields.io/npm/dm/@kipedene/material.svg)](https://www.npmjs.com/package/@kipedene/material)
+[![npm downloads](https://img.shields.io/npm/dm/@kipedene/material.svg)](https://www.npmjs.com/package/@kipedene/material)
 [![License](https://img.shields.io/npm/l/@kipedene/material.svg)](LICENSE)
 
 
