@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../shared/shared-module';
+import { KmatButton } from './components/button/button';
 
 
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
-    SharedModule
+    KmatButton
+  ],
+  exports: [
+    KmatButton
   ]
 })
 export class KmatButtonModule { }

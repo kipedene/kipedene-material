@@ -33,6 +33,9 @@ import { MatButtonModule } from '@angular/material/button';
     MatButtonModule
   ],
   exports: [
+    CommonModule,
+    ReactiveFormsModule,
+    FormsModule,
     MatDividerModule,
     MatIconModule,
     MatFormFieldModule,

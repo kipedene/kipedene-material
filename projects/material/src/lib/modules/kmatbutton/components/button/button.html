@@ -1,0 +1,18 @@
+<div class="kmatBtn">
+    <button *ngIf="!isHidden" 
+    [disabled]="isDisabled || !isEnabled()" 
+    [ngClass]="button.css" 
+    (click)="handleClick()" 
+    (dblclick)="handleDblClick()">
+        <ng-container *ngIf="!isEditing; else editMode">{{editableText}}</ng-container>
+    </button>
+
+    <ng-template #editMode>
+        <input 
+        type="text" 
+        [(ngModel)]="editableText" 
+        (blur)="handleBlur()" 
+        (keydown.enter)="handleBlur()" 
+        autofocus>
+    </ng-template>
+</div>

@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+import { SharedModule } from '../../../../shared/shared-module';
 
 @Component({
   selector: 'kmat-card',
-  imports: [],
+  imports: [
+    SharedModule
+  ],
   templateUrl: './card.html',
-  styleUrl: './card.css'
+  styleUrl: './card.scss'
 })
 export class KmatCard {
 
